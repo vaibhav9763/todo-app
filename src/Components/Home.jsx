@@ -88,6 +88,7 @@ const Home = () => {
             <button
               type="button"
               onClick={() => addTodo()}
+              // swal.fire
               className="btn-edit"
             >
               Save <TbEdit size={22} />
